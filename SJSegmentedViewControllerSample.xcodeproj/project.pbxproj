@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12D74475446EA13D25836AB0 /* Pods_SJSegmentedViewControllerSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C982012357A2E99D2FCEBEF /* Pods_SJSegmentedViewControllerSampleUITests.framework */; };
 		3988D6B31D64102A0072EB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988D6B21D64102A0072EB3E /* AppDelegate.swift */; };
 		3988D6B51D64102A0072EB3E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988D6B41D64102A0072EB3E /* MasterViewController.swift */; };
 		3988D6B71D64102A0072EB3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988D6B61D64102A0072EB3E /* DetailViewController.swift */; };
@@ -15,6 +16,8 @@
 		3988D6BF1D64102A0072EB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3988D6BD1D64102A0072EB3E /* LaunchScreen.storyboard */; };
 		3988D6CA1D64102A0072EB3E /* SJSegmentedViewControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988D6C91D64102A0072EB3E /* SJSegmentedViewControllerSampleTests.swift */; };
 		3988D6D51D64102A0072EB3E /* SJSegmentedViewControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988D6D41D64102A0072EB3E /* SJSegmentedViewControllerSampleUITests.swift */; };
+		3C7CE2E5B088C40AF694100F /* Pods_SJSegmentedViewControllerSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A9A6FB11371B232851F4F9 /* Pods_SJSegmentedViewControllerSampleTests.framework */; };
+		3E0D7CAAA92FB8EA697C8C67 /* Pods_SJSegmentedViewControllerSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45087F7E47DF542E6617BA63 /* Pods_SJSegmentedViewControllerSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067581AAE10D45B3B8F4ED8A /* Pods-SJSegmentedViewControllerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedViewControllerSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedViewControllerSample/Pods-SJSegmentedViewControllerSample.release.xcconfig"; sourceTree = "<group>"; };
 		3988D6AF1D64102A0072EB3E /* SJSegmentedViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJSegmentedViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3988D6B21D64102A0072EB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3988D6B41D64102A0072EB3E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		3988D6D01D64102A0072EB3E /* SJSegmentedViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJSegmentedViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3988D6D41D64102A0072EB3E /* SJSegmentedViewControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJSegmentedViewControllerSampleUITests.swift; sourceTree = "<group>"; };
 		3988D6D61D64102A0072EB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45087F7E47DF542E6617BA63 /* Pods_SJSegmentedViewControllerSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSegmentedViewControllerSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A9A6FB11371B232851F4F9 /* Pods_SJSegmentedViewControllerSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSegmentedViewControllerSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B4E05B5F6E2A2AA0F7307D /* Pods-SJSegmentedViewControllerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedViewControllerSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedViewControllerSample/Pods-SJSegmentedViewControllerSample.debug.xcconfig"; sourceTree = "<group>"; };
+		62E6F395EEE717585758B240 /* Pods-SJSegmentedViewControllerSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedViewControllerSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleUITests/Pods-SJSegmentedViewControllerSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		769024B9D1C1276C2FE5A1A8 /* Pods-SJSegmentedViewControllerSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedViewControllerSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleTests/Pods-SJSegmentedViewControllerSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C982012357A2E99D2FCEBEF /* Pods_SJSegmentedViewControllerSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSegmentedViewControllerSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70ADD1206A5DF758C1E6E5F /* Pods-SJSegmentedViewControllerSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedViewControllerSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleTests/Pods-SJSegmentedViewControllerSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D35C10AE15975C2181DBB817 /* Pods-SJSegmentedViewControllerSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedViewControllerSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleUITests/Pods-SJSegmentedViewControllerSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0D7CAAA92FB8EA697C8C67 /* Pods_SJSegmentedViewControllerSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7CE2E5B088C40AF694100F /* Pods_SJSegmentedViewControllerSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D74475446EA13D25836AB0 /* Pods_SJSegmentedViewControllerSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F245E765AF8D039069AF834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45087F7E47DF542E6617BA63 /* Pods_SJSegmentedViewControllerSample.framework */,
+				54A9A6FB11371B232851F4F9 /* Pods_SJSegmentedViewControllerSampleTests.framework */,
+				9C982012357A2E99D2FCEBEF /* Pods_SJSegmentedViewControllerSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		187E4A36BD22ECF694B3706A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B4E05B5F6E2A2AA0F7307D /* Pods-SJSegmentedViewControllerSample.debug.xcconfig */,
+				067581AAE10D45B3B8F4ED8A /* Pods-SJSegmentedViewControllerSample.release.xcconfig */,
+				769024B9D1C1276C2FE5A1A8 /* Pods-SJSegmentedViewControllerSampleTests.debug.xcconfig */,
+				C70ADD1206A5DF758C1E6E5F /* Pods-SJSegmentedViewControllerSampleTests.release.xcconfig */,
+				D35C10AE15975C2181DBB817 /* Pods-SJSegmentedViewControllerSampleUITests.debug.xcconfig */,
+				62E6F395EEE717585758B240 /* Pods-SJSegmentedViewControllerSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3988D6A61D64102A0072EB3E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				3988D6C81D64102A0072EB3E /* SJSegmentedViewControllerSampleTests */,
 				3988D6D31D64102A0072EB3E /* SJSegmentedViewControllerSampleUITests */,
 				3988D6B01D64102A0072EB3E /* Products */,
+				187E4A36BD22ECF694B3706A /* Pods */,
+				0F245E765AF8D039069AF834 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3988D6D91D64102A0072EB3E /* Build configuration list for PBXNativeTarget "SJSegmentedViewControllerSample" */;
 			buildPhases = (
+				8AFC379F629C944B53962B39 /* [CP] Check Pods Manifest.lock */,
 				3988D6AB1D64102A0072EB3E /* Sources */,
 				3988D6AC1D64102A0072EB3E /* Frameworks */,
 				3988D6AD1D64102A0072EB3E /* Resources */,
+				60166EC14DA241665A5C6762 /* [CP] Embed Pods Frameworks */,
+				64720B0E489A10652723E641 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3988D6DC1D64102A0072EB3E /* Build configuration list for PBXNativeTarget "SJSegmentedViewControllerSampleTests" */;
 			buildPhases = (
+				1A1EC09E17E1C6F81796FD76 /* [CP] Check Pods Manifest.lock */,
 				3988D6C11D64102A0072EB3E /* Sources */,
 				3988D6C21D64102A0072EB3E /* Frameworks */,
 				3988D6C31D64102A0072EB3E /* Resources */,
+				E1005C60264687CD628D1403 /* [CP] Embed Pods Frameworks */,
+				9153D793590D8C58B2463686 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3988D6DF1D64102A0072EB3E /* Build configuration list for PBXNativeTarget "SJSegmentedViewControllerSampleUITests" */;
 			buildPhases = (
+				7190BFDFF8A1DBCC6C0128D6 /* [CP] Check Pods Manifest.lock */,
 				3988D6CC1D64102A0072EB3E /* Sources */,
 				3988D6CD1D64102A0072EB3E /* Frameworks */,
 				3988D6CE1D64102A0072EB3E /* Resources */,
+				270C8EA5749EF1A81855BBEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1EC09E17E1C6F81796FD76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		270C8EA5749EF1A81855BBEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleUITests/Pods-SJSegmentedViewControllerSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60166EC14DA241665A5C6762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedViewControllerSample/Pods-SJSegmentedViewControllerSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64720B0E489A10652723E641 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedViewControllerSample/Pods-SJSegmentedViewControllerSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7190BFDFF8A1DBCC6C0128D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFC379F629C944B53962B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9153D793590D8C58B2463686 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleTests/Pods-SJSegmentedViewControllerSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1005C60264687CD628D1403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedViewControllerSampleTests/Pods-SJSegmentedViewControllerSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3988D6AB1D64102A0072EB3E /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		3988D6DA1D64102A0072EB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B4E05B5F6E2A2AA0F7307D /* Pods-SJSegmentedViewControllerSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJSegmentedViewControllerSample/Info.plist;
@@ -414,6 +586,7 @@
 		};
 		3988D6DB1D64102A0072EB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067581AAE10D45B3B8F4ED8A /* Pods-SJSegmentedViewControllerSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJSegmentedViewControllerSample/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		3988D6DD1D64102A0072EB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769024B9D1C1276C2FE5A1A8 /* Pods-SJSegmentedViewControllerSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SJSegmentedViewControllerSampleTests/Info.plist;
@@ -437,6 +611,7 @@
 		};
 		3988D6DE1D64102A0072EB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70ADD1206A5DF758C1E6E5F /* Pods-SJSegmentedViewControllerSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SJSegmentedViewControllerSampleTests/Info.plist;
@@ -449,6 +624,7 @@
 		};
 		3988D6E01D64102A0072EB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35C10AE15975C2181DBB817 /* Pods-SJSegmentedViewControllerSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SJSegmentedViewControllerSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		3988D6E11D64102A0072EB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E6F395EEE717585758B240 /* Pods-SJSegmentedViewControllerSampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SJSegmentedViewControllerSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +665,7 @@
 				3988D6DB1D64102A0072EB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3988D6DC1D64102A0072EB3E /* Build configuration list for PBXNativeTarget "SJSegmentedViewControllerSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +674,7 @@
 				3988D6DE1D64102A0072EB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3988D6DF1D64102A0072EB3E /* Build configuration list for PBXNativeTarget "SJSegmentedViewControllerSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +683,7 @@
 				3988D6E11D64102A0072EB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

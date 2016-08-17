@@ -1,0 +1,6 @@
+framework module Pods_SJSegmentedViewControllerSampleTests {
+  umbrella header "Pods-SJSegmentedViewControllerSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+PODS:
+  - SJSegmentedScrollView (1.0.11)
+
+DEPENDENCIES:
+  - SJSegmentedScrollView
+
+SPEC CHECKSUMS:
+  SJSegmentedScrollView: 4c8544b8d7a3426a7690786ecd515a1786d64e2f
+
+PODFILE CHECKSUM: 2911d1b7674f026070dd2241a0422cb36d2c13dc
+
+COCOAPODS: 1.0.1
